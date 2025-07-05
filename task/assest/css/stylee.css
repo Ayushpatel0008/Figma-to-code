@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1264px;
+    /* max-width: 1140px; */
+    margin: auto;
+}
+
+.row {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.col-50 {
+    width: 90%;
+}
+
+/* header */
+
+.head {
+    background-color: #000000;
+    padding: 0 60px;
+}
+
+ul {
+    display: inline-block;
+}
+
+li {
+    list-style: none;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Oswald";
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.fa-magnifying-glass {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.title {
+    margin: 240px 0 0 120px;
+}
+
+.title-head {
+    font-size: 105px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Oswald";
+
+}
+
+.title-desc {
+    width: 600px;
+    font-size: 27px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    margin: 10px 0 40px 0;
+}
+
+.reg-btn {
+    border-radius: 4px;
+    background-color: #e8631c;
+    font-size: 29px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Oswald";
+    display: inline-block;
+    padding: 5px 50px;
+}
+
+.c-logo {
+    width: 180px;
+}
+
+.c-d-e {
+    display: flex;
+}
+
+.c-i {
+    color: white;
+    font-size: 30px;
+}
+
+.c-d {
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 21px;
+    gap: 6px;
+}
+
+.c-nav-b {
+    gap: 10px;
+}
+
+.nav-itme {
+    text-decoration: none;
+}
+
+.c-nav {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.c-button {
+    padding: 8px;
+    width: 130px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+/* header END  */
+
+/* <!-- section-01-start --> */
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    position: relative;
+    background-color: #fffaf5;
+    background-image: url(/assest/img/bg.png);
+    text-align: center;
+}
+
+.center-content {
+    max-width: 700px;
+    margin: auto;
+}
+
+.main-logo {
+    width: 370px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 46px;
+    font-weight: bold;
+    color: #000;
+}
+
+.underline {
+    width: 120px;
+}
+
+.corner-shape-one {
+    width: 287px;
+    position: absolute;
+    left: 18px;
+}
+
+.corner-shape-tow {
+    width: 194px;
+    position: absolute;
+    right: 0px;
+}
+
+.c-p {
+    text-align: center;
+    width: 74%;
+    margin-left: 100px;
+}
+
+.btn {
+    background-color: orange;
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 50px;
+    width: 180px;
+    margin-top: 100px;
+}
+
+.shap1 {
+    position: absolute;
+    width: 108px;
+    top: 138px;
+    left: 211px;
+
+}
+
+.shap2 {
+    position: absolute;
+    top: 300px;
+    left: 81px;
+    width: 100px;
+}
+
+.shap3 {
+    position: absolute;
+    bottom: 121px;
+    width: 84px;
+    right: 241px;
+}
+
+.shap4 {
+    position: absolute;
+    bottom: 121px;
+    width: 84px;
+    left: 241px;
+}
+
+.shap5 {
+    position: absolute;
+    top: 90px;
+    width: 120px;
+    right: 161px;
+}
+
+/* <!-- section-01-end --> */
+
+/* <!-- section-02-start --> */
+
+.c-h2 {
+    font-weight: 600;
+    max-width: 320px;
+}
+
+.c-p2 {
+    max-width: 55%;
+    padding-top: 10px;
+}
+
+.c-div {
+    padding: 50px 111px;
+}
+
+.c-d-c{
+    display: flex;
+    width: 100px;
+}
+
+.c-img{
+    width: 80px;
+}
+
+.c-font{
+    font-weight: 300;
+    color: orange;
+}
